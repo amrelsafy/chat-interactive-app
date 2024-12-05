@@ -1,0 +1,44 @@
+.user-list-nav{
+  background-color: #E5E5E5;
+  min-width: 260px;
+}
+
+.user-link{
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.user-link:hover{
+  background-color: #D5D6D7;
+}
+
+.user-list-show-btn{
+  display: none;
+}
+
+@media screen and (max-width: 425px){
+  .user-list-ul{
+    height: 100vh;
+    width: 100vw;
+  }
+  .user-list-nav{
+    position: absolute;
+    z-index: 2;
+    min-width: 50px;
+  }
+  .user-list-show-btn{
+    display: block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 23px;
+    margin: 20px;
+  }
+  .show-tb{
+    display: none;
+  }
+}

@@ -1,0 +1,18 @@
+.image-modal{
+  background-color: rgba(0, 0, 0, 0.8);
+    z-index: 50;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    cursor: pointer;
+}
+
+.image-modal img{
+  width: 40%;
+  cursor: default;
+}
